@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Frappe Whatsapp Cloud Api Notifications Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Frappe Whatsapp Cloud Api Notifications Volume Trend",
+   "label": "Frappe Whatsapp Cloud Api Notifications Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Frappe Whatsapp Cloud Api Notifications Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Frappe Whatsapp Cloud Api Notifications Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Frappe Whatsapp Cloud Api Notifications",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe Whatsapp Cloud Api Notifications Entry",
+   "label": "Frappe Whatsapp Cloud Api Notifications Entry",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe Whatsapp Cloud Api Notifications Audit Log",
+   "label": "Frappe Whatsapp Cloud Api Notifications Audit Log",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Frappe Whatsapp Cloud Api Notifications Summary",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe Whatsapp Cloud Api Notifications Settings",
+   "label": "Frappe Whatsapp Cloud Api Notifications Settings",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Wa_Notify_Core",
  "name": "Frappe Whatsapp Cloud Api Notifications",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Frappe Whatsapp Cloud Api Notifications Entry",
+   "label": "Recent Frappe Whatsapp Cloud Api Notifications Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Frappe Whatsapp Cloud Api Notifications Entrys",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Frappe Whatsapp Cloud Api Notifications Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Frappe Whatsapp Cloud Api Notifications"
 }
